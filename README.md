@@ -1,5 +1,8 @@
-# ReferentielTunnels
-Tables de référence sur les dénominations et codes des tunnels
+# Referentiel des Tunnels
+Ce **repository** met à disposition des tables de référence sur les dénominations et codes des tunnels.
+
+Il fournit notamment la table qui définit les regroupements de sections de tunnel en **fermetures**, pour les visites des issues et des niches.
+
 
 ## Référence
 `https://github.com/OlivierNalin/CombienTunnels`   
