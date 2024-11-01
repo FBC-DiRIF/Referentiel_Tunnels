@@ -23,12 +23,7 @@ Et le sens : 'E', 'E>W', 'E>Y', 'I', 'I>W', 'W', 'W>I', 'Y', 'Y>E', 'Y>I'
 
 Quand on croise ces 3 variables, on obtient 74 possibilités : 
 
-```{r, echo=FALSE, warning=FALSE}
-library(flextable)
-flextable(read.csv("https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/equipMalLocalis%C3%A9.csv"))
-```
-
-`Table tunnel x Axe x Sens <https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx>`_
+`Table tunnel x Axe x Sens<https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx>`_
 
 
 
