@@ -21,15 +21,7 @@ CosWin renseigne également l'axe :'A1', 'A115', 'A12', 'A13', 'A14', 'A14XA86',
 
 Et le sens : 'E', 'E>W', 'E>Y', 'I', 'I>W', 'W', 'W>I', 'Y', 'Y>E', 'Y>I'
 
-Quand on croise ces 3 variables, on obtient 74 possibilités : 
-
-['Table tunnel x Axe x Sens'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx)
-
-
-[Table tunnel x Axe x Sens](['https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx))
-
-
-['Table tunnel x Axe x Sens'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx)
-
+Quand on croise ces 3 variables, on obtient 74 possibilités :   
+['Table tunnel x Axe x Sens (Téléchargement 7k'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx)
 
 
