@@ -47,4 +47,29 @@ On pourra utiliser la table de correspondante téléchargeable ici :
 
 ['code utilisé pour établir la table'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/codeCorrCosWinSucombe)
 
+## Regroupements de fermetures
+Pour massifier certaines actions de maintenance de nuit sous fermeture, il est utile d'identifier les sections de tunnels 
+qui sont le plus souvent fermées en même temps.   
+Environ 30 regroupements de ce type ont été identifiés en concertation avec les PCTT.
+
+Certaines associations vont de soi comme : 
+
+* Moulin et G. Moquet (Thais),
+* Boulogne A. Paré et Saint Cloud.    
+
+D'autres regroupements sont le résultat d'un choix réfléchi tels que :
+* bobigny Lumen Norton & La Courneuve
+* Les deux sens des tunnels des Sévines, de Chennevières, de Taverny
+* La Défense (A14-Y) & B5 (ECH W>I)
+
+Cependant, les tunnels de Belle Rive et de Nanterre sont généralement fermés ensembles, mais ils n'ont pas été regroupés car ils ne sont pas gérés par le même pôle de maintenance.
+
+Les regroupements sont formalisés dans la table accessible par le lien ci-dessous :
+['Correspondance entre Fermetures & couples (Tunnel, Sens)'](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/CorTbFerm.csv)
+
+A partir de la table des équipements de CosWin, on peut faire une jointure avec cette table sur les champs Tunnel et Sens, 
+pour associer à chaque équipement sa **Fermeture**
+
+
+
 
