@@ -11,6 +11,13 @@ Plusieurs applications de la DiRIF utilisent des noms et des codes différents p
 Les applications n'utilisent pas toutes les mêmes objets ou regroupements de tubes pour identifier les tunnels.
 Par exemple Sucombe identifie un tunnel par le nom Thiais mais ne connait pas d'objet correspondant au tunnel du moulin.
 
+## Sucombe
+L'application Sucombe comporte un champ **Lieu** dont 21 valeurs correspondent à un tunnel ou à un groupe de tunnels.   
+La liste des valeurs est la suivante :   
+'Ambroise PARE', 'Antony', 'Bellerive', 'Bicêtre', 'Bobigny-Lumen-Norton', 'Boissy-Saint-Léger', 'Champigny', 'Chennevières', 'Fontenay le Fleury', 'Fresnes', 'Italie', 'La Courneuve', 'Landy', 'Nanterre / La Défense', 'Neuilly', 'Nogent', 'Orly', 'Saint Cloud', 'Sévines', 'Taverny', 'Thiais'
+
+
+
 ## CosWin
 Dans l'application CosWin, les équipements sont associé à un tunnel (26 valeurs différentes) :   
 'AMBROISE_PARE', 'ANTONY', 'BELLE-RIVE', 'BICETRE', 'BOBIGNY', 'BOISSY',
