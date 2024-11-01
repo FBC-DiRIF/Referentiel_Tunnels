@@ -12,7 +12,8 @@ Les applications n'utilisent pas toutes les mêmes objets ou regroupements de tu
 Par exemple Sucombe identifie un tunnel par le nom Thiais mais ne connait pas d'objet correspondant au tunnel du moulin.
 
 ## CosWin
-Dans l'application CosWin, les équipements sont associé à un tunnel : 'AMBROISE_PARE', 'ANTONY', 'BELLE-RIVE', 'BICETRE', 'BOBIGNY', 'BOISSY',
+Dans l'application CosWin, les équipements sont associé à un tunnel (26 valeurs différentes) :   
+'AMBROISE_PARE', 'ANTONY', 'BELLE-RIVE', 'BICETRE', 'BOBIGNY', 'BOISSY',
        'CHAMPIGNY', 'CHENNEVIERES', 'ECHANGEUR_NANTERRE', 'FONTENAY',       'FRESNES', 'GUY-MOQUET', 'ITALIE', 'LANDY', 'LA_COURNEUVE',
        'LA_DEFENSE', 'LUMEN_NORTON', 'MOULIN', 'NANTERRE_CENTRE', 'NEUILLY',       'NOGENT', 'ORLY', 'SAINT-CLOUD', 'SEVINES', 'TAVERNY', 'TRINITY'
 
@@ -24,6 +25,7 @@ Et le sens : 'E', 'E>W', 'E>Y', 'I', 'I>W', 'W', 'W>I', 'Y', 'Y>E', 'Y>I'
 Quand on croise ces 3 variables, on obtient 74 possibilités :   
 ['Table Tunnel x Axe x Sens (Téléchargement 7k)'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx)
 
-On constate que certains croisement ne cnocerne qu'un seul équipement. Il peut parfois s'agit d'une anomalie de l'enregistrement dans CosWin :    
+On constate que certains croisements ne cnocernent qu'un seul équipement. 
+Il peut parfois s'agit d'une anomalie de l'enregistrement dans CosWin :    
 ['Table des équipements singuliers '](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/equipMalLocalisé.csv)
 
