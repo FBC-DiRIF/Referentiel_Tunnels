@@ -1,0 +1,16 @@
+lsTu=equip.groupby(['Tunnel'])['Tatouage'].count().rename('cp')
+lsSu=['Ambroise PARE', 'Antony', 'Bellerive', 'Bicêtre', 'Bobigny-Lumen-Norton', 'Boissy-Saint-Léger', 'Champigny', 'Chennevières', 'Fontenay le Fleury', 'Fresnes', 'Italie', 'La Courneuve', 'Landy', 'Nanterre / La Défense', 'Neuilly', 'Nogent', 'Orly', 'Saint Cloud', 'Sévines', 'Taverny', 'Thiais']
+lsSU=[x.upper() for x in lsSu]
+lsSu=pd.DataFrame(lsSu,index=lsSU,columns=['Su'])
+lsC=pd.concat([lsTu,lsSu],axis=1)
+lsCw=lsC[lsC['cp']>1].sort_values('Su')['Su']
+tnCom=lsCw[lsCw.notna()]
+tnCwM=lsCw[lsCw.isna()].index 
+['AMBROISE_PARE', 'BELLE-RIVE', 'BICETRE', 'BOBIGNY', 'BOISSY',       'CHENNEVIERES', 'ECHANGEUR_NANTERRE', 'FONTENAY', 'GUY-MOQUET',
+       'LA_COURNEUVE', 'LA_DEFENSE', 'LUMEN_NORTON', 'MOULIN',       'NANTERRE_CENTRE', 'SAINT-CLOUD', 'SEVINES', 'TRINITY']
+
+tnCwS=['Ambroise PARE',  'Bellerive', 'Bicêtre', 'Bobigny-Lumen-Norton', 'Boissy-Saint-Léger',  'Chennevières', 'Nanterre / La Défense',   'Fontenay le Fleury', 'Thiais',
+ 'La Courneuve',   'Nanterre / La Défense', 'Bobigny-Lumen-Norton', 'Thiais', 'Nanterre / La Défense', 'Saint Cloud', 'Sévines', 'Nanterre / La Défense']
+tnCwM=pd.Series(tnCwS,index=tnCwM,name='Su')
+
+pd.concat([tnCom,tnCwM]).to_csv('tunnelsCosWinSucombe.csv')
