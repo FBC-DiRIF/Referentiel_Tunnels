@@ -36,3 +36,15 @@ On constate que certains croisements ne cnocernent qu'un seul équipement.
 Il peut parfois s'agit d'une anomalie de l'enregistrement dans CosWin :    
 ['Table des équipements singuliers '](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/equipMalLocalisé.csv)
 
+## Correspondance entre CosWin et Sucombe
+Dans Sucombe, 3 lieux sont des regroupements de plusieurs tunnels au sens de CosWin :   
+'Bobigny-Lumen-Norton', 'Nanterre / La Défense',  'Thiais'
+
+En outre, même quand les objets sont les mêmes, leurs écritures diffèrent.
+
+On pourra utiliser la table de correspondante téléchargeable ici :  
+['Table de correspondance CosWin -> Sucombe](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/tunnelsCosWinSucombe.csv)
+
+['code utilisé pour établir la table'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/codeCorrCosWinSucombe)
+
+
