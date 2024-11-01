@@ -55,16 +55,17 @@ Environ 30 regroupements de ce type ont été identifiés en concertation avec l
 Certaines associations vont de soi comme : 
 
 * Moulin et G. Moquet (Thais),
-* Boulogne A. Paré et Saint Cloud.    
+* Boulogne A. Paré et Saint Cloud (A13).    
 
 D'autres regroupements sont le résultat d'un choix réfléchi tels que :
 * bobigny Lumen Norton & La Courneuve
 * Les deux sens des tunnels des Sévines, de Chennevières, de Taverny
 * La Défense (A14-Y) & B5 (ECH W>I)
 
-Cependant, les tunnels de Belle Rive et de Nanterre sont généralement fermés ensembles, mais ils n'ont pas été regroupés car ils ne sont pas gérés par le même pôle de maintenance.
+Cependant, les tunnels de Belle Rive et de Nanterre, qui sont généralement fermés ensemble, n'ont pas été regroupés 
+car ils ne sont pas gérés par le même pôle de maintenance.
 
-Les regroupements sont formalisés dans la table accessible par le lien ci-dessous :
+Les regroupements sont formalisés dans la table accessible par le lien ci-dessous :   
 ['Correspondance entre Fermetures & couples (Tunnel, Sens)'](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/CorTbFerm.csv)
 
 A partir de la table des équipements de CosWin, on peut faire une jointure avec cette table sur les champs Tunnel et Sens, 
