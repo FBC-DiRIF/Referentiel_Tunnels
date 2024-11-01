@@ -3,7 +3,7 @@ Tables de référence sur les dénominations et codes des tunnels
 
 ## Référence
 `https://github.com/OlivierNalin/CombienTunnels`   
-On mentionne cet exercice qui proposait une classification à 3 niveaux des tubes et des tunnels.  
+Compte rendu d'un exercice qui proposait une classification à 3 niveaux des tubes et des tunnels.  
 
 ## Constats
 Plusieurs applications de la DiRIF utilisent des noms et des codes différents pour identifier les tunnels.
