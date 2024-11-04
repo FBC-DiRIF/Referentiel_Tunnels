@@ -33,7 +33,7 @@ cosWin fournit également le **sens** : 'E', 'E>W', 'E>Y', 'I', 'I>W', 'W', 'W>I
 Cette information est particulièrement utile dans le cas du *tunnel* désigné par **ECHANGEUR_NANTERRE**.
 
 Quand on croise ces 3 variables, on obtient 74 possibilités :   
-['Table Tunnel x Axe x Sens (Téléchargement 7k)'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx)
+[Table Tunnel x Axe x Sens (Téléchargement 7k)](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/tunnelAxeSens.xlsx)
 
 On constate que certains croisements ne concernent qu'un seul équipement. 
 Il peut parfois s'agir d'une anomalie de l'enregistrement dans CosWin :    
@@ -69,11 +69,11 @@ Cependant, les tunnels de Belle Rive et de Nanterre, qui sont généralement fer
 car ils ne sont pas gérés par le même pôle de maintenance.
 
 Les regroupements sont formalisés dans la table accessible par le lien ci-dessous :   
-['Correspondance entre Fermetures & couples (Tunnel, Sens)'](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/CorTbFerm.csv)
+[Correspondance entre Fermetures & couples (Tunnel, Sens)](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/CorTbFerm.csv)
 
 A partir de la table des équipements de CosWin, on peut faire une jointure avec cette table sur les champs Tunnel et Sens, 
 pour associer à chaque équipement sa **Fermeture**.   
-['Programme de jointure pour les issues de secours']( https://github.com/ExploitIdF/Referentiel_Tunnels/blob/main/LiaisonIssuesFermeture.py)
+[Programme de jointure pour les issues de secours]( https://github.com/ExploitIdF/Referentiel_Tunnels/blob/main/LiaisonIssuesFermeture.py)
 
 [Résultat de la jointure pour les issues de secours]( https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/issuesFermetures.csv)
 
