@@ -56,7 +56,8 @@ En outre, même quand les objets sont les mêmes, leurs écritures diffèrent :
 On pourra utiliser, pour lier les informations des deux applications, la table de correspondante téléchargeable ici :  
 ['Table de correspondance CosWin -> Sucombe](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/tunnelsCosWinSucombe.csv)
 
-['Code python utilisé pour établir la table'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/codeCorrCosWinSucombe)
+['Code python utilisé pour établir la table'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/issuesNichesFermetures.ipynb)
+
 
 ## Regroupements de fermetures
 Pour massifier certaines actions de maintenance de nuit, sous fermeture, il est utile d'identifier les sections de tunnels 
