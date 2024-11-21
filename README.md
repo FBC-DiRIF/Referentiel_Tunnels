@@ -56,7 +56,7 @@ En outre, même quand les objets sont les mêmes, leurs écritures diffèrent :
 On pourra utiliser, pour lier les informations des deux applications, la table de correspondante téléchargeable ici :  
 ['Table de correspondance CosWin -> Sucombe](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/tunnelsCosWinSucombe.csv)
 
-['Code python utilisé pour établir la table'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/issuesNichesFermetures.ipynb)
+['Code python utilisé pour établir la table'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/codeCorrCosWinSucombe)
 
 
 ## Regroupements de fermetures
