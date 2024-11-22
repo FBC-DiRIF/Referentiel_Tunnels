@@ -21,10 +21,15 @@ La liste de ces valeurs est la suivante :
 
 ## CosWin
 Dans l'application CosWin, certains équipements sont associés à un **tunnel**. 
-La table des équipements comporte un champ **tunnel** (26 valeurs différentes) :   
+La table des équipements comporte un champ **tunnel** (26 valeurs différentes) :  ``` 
 'AMBROISE_PARE', 'ANTONY', 'BELLE-RIVE', 'BICETRE', 'BOBIGNY', 'BOISSY',
        'CHAMPIGNY', 'CHENNEVIERES', 'ECHANGEUR_NANTERRE', 'FONTENAY',       'FRESNES', 'GUY-MOQUET', 'ITALIE', 'LANDY', 'LA_COURNEUVE',
        'LA_DEFENSE', 'LUMEN_NORTON', 'MOULIN', 'NANTERRE_CENTRE', 'NEUILLY', 'NOGENT', 'ORLY', 'SAINT-CLOUD', 'SEVINES', 'TAVERNY', 'TRINITY'
+```
+
+Les autres valeurs du champ **Tunnel** sont :
+`'HORS_TUNNEL', 'LA_JONCHERE', 'COUV._BLANC-MESNIL', 'COUV._BAGNOLET','ORLEANS'`
+
 
 Pour ces équipements, CosWin renseigne également le champ **Axe**. Les valeurs prises par ce champs sont :'A1', 'A115', 'A12', 'A13', 'A14', 'A14XA86', 'A4', 'A6B', 'A86EST',
        'A86NORD', 'A86OUEST', 'A86SUD', 'N1013', 'N1014', 'N12', 'N13', 'N19', 'N192', 'N314', 'N315', 'N7'   
