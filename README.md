@@ -30,6 +30,10 @@ La table des équipements comporte un champ **Tunnel** (31 valeurs différentes 
 Les autres valeurs du champ **Tunnel** sont :   
 `'HORS_TUNNEL', 'LA_JONCHERE', 'COUV._BLANC-MESNIL', 'COUV._BAGNOLET','ORLEANS'`
 
+On a établit un codage de trois caractères, **triCode**, pour désigner les tunnels :   
+[Table des **triCode**](https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/import/tunnelTricode.csv)
+
+
 
 Pour ces équipements, CosWin renseigne également le champ **Axe**. Les valeurs prises par ce champs sont :'A1', 'A115', 'A12', 'A13', 'A14', 'A14XA86', 'A4', 'A6B', 'A86EST',
        'A86NORD', 'A86OUEST', 'A86SUD', 'N1013', 'N1014', 'N12', 'N13', 'N19', 'N192', 'N314', 'N315', 'N7'   
