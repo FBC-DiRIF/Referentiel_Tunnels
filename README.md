@@ -87,13 +87,16 @@ Cependant, les tunnels de Belle Rive et de Nanterre, qui sont généralement fer
 car ils ne sont pas gérés par le même pôle de maintenance.
 
 Les regroupements sont formalisés dans la table accessible par le lien ci-dessous :   
-[Correspondance entre Fermetures & couples (Tunnel, Sens)](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/CorTbFerm.csv)
+[Correspondance entre couples (Tunnel, Sens) &  Fermetures](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/import/CorTunnelSensFerm.csv)
 
 A partir de la table des équipements de CosWin, on peut faire une jointure avec cette table sur les champs Tunnel et Sens, 
 pour associer à chaque équipement sa **Fermeture**.   
-[Programme de jointure pour les issues de secours]( https://github.com/ExploitIdF/Referentiel_Tunnels/blob/main/issuesNichesFermetures.ipynb)
 
 [Résultat de la jointure pour les issues de secours]( https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/issuesFermetures.csv)
+[Résultat de la jointure pour les niches]( https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/niches/nichesFermetures.csv)
+
+[Programme de jointure pour les niches]( https://github.com/ExploitIdF/Referentiel_Tunnels/blob/main/niches/creationTableNiches.ipynb)
+
 
 
 
