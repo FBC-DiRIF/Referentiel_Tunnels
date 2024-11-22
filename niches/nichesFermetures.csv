@@ -1,4 +1,4 @@
-Tatouage,Description,Code Exploitant,Axe,Sens,Pr,État,Dans tunnel,Tunnel,Segment,Parent,GPS,triCode,Fermeture
+Tatouage,Description,CodeEx,Axe,Sens,Pr,État,Dans tunnel,Tunnel,Segment,Parent,GPS,triCode,Fermeture
 L10.122A,Niche sécurité NSW-701 - PAU NM01R - Tunnel de Nanterre-La Défense,DEF-NSW-701/DEF,N1013,W,"0,0379",EXPLOI,Oui,LA_DEFENSE,12004434,,"48.889957,2.239356",A14,A14&NEU-W
 L10.123C,Niche sécurité NSW-702 - PAU NM00R - Tunnel de Nanterre-La Défense,DEF-NSW-702/DEF,N1013,W,"0,023",EXPLOI,Oui,LA_DEFENSE,12004434,,"48.890278,2.240661",A14,A14&NEU-W
 L10.124D,Niche sécurité NSW-601 - PAU NG01R - Tunnel de Nanterre-La Défense,DEF-NSW-601/DEF,N192,W,"0,0509",EXPLOI,Oui,LA_DEFENSE,12004433,,"48.892075,2.240956",A14,A14&NEU-W
