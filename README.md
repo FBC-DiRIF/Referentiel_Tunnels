@@ -92,7 +92,7 @@ Les regroupements sont formalisés dans la table accessible par le lien ci-desso
 A partir de la table des équipements de CosWin, on peut faire une jointure avec cette table sur les champs Tunnel et Sens, 
 pour associer à chaque équipement sa **Fermeture**.   
 
-[Résultat de la jointure pour les issues de secours]( https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/issuesFermetures.csv)
+[Résultat de la jointure pour les issues de secours]( https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/issuesFermetures.csv)    
 [Résultat de la jointure pour les niches]( https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/niches/nichesFermetures.csv)
 
 [Programme de jointure pour les niches]( https://github.com/ExploitIdF/Referentiel_Tunnels/blob/main/niches/creationTableNiches.ipynb)
