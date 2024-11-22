@@ -20,6 +20,7 @@ La liste de ces valeurs est la suivante :
 'Italie', 'La Courneuve', 'Landy', 'Nanterre / La Défense', 'Neuilly', 'Nogent', 'Orly', 'Saint Cloud', 'Sévines', 'Taverny', 'Thiais'
 
 ## CosWin
+###  Champ Tunnel
 Dans l'application CosWin, certains équipements sont associés à un **tunnel**. 
 La table des équipements comporte un champ **Tunnel** (31 valeurs différentes dont 26 sont des tunnels exploités par le DiRIF/STT) :  
 ``` 
@@ -33,8 +34,7 @@ Les autres valeurs du champ **Tunnel** sont :
 On a établit un codage de trois caractères, **triCode**, pour désigner les tunnels :   
 [Table des **triCode**](https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/import/tunnelTricode.csv)
 
-
-
+###  Champs Axe et Sens
 Pour ces équipements, CosWin renseigne également le champ **Axe**. Les valeurs prises par ce champs sont :'A1', 'A115', 'A12', 'A13', 'A14', 'A14XA86', 'A4', 'A6B', 'A86EST',
        'A86NORD', 'A86OUEST', 'A86SUD', 'N1013', 'N1014', 'N12', 'N13', 'N19', 'N192', 'N314', 'N315', 'N7'   
 Elles complètent parfois utilement l'information donnée par le champ Tunnel (N1013 ou N192 désignent des bretelles dans le *tunnel* **LA_DEFENSE**).
@@ -43,6 +43,7 @@ Elles complètent parfois utilement l'information donnée par le champ Tunnel (N
 
 Cette information est particulièrement utile dans le cas du *tunnel* désigné par **ECHANGEUR_NANTERRE**.
 
+###  Croisement des champs Tunnel, Axe & Sens
 Quand on croise ces 3 variables, on obtient 74 possibilités :   
 [Table Tunnel x Axe x Sens](https://raw.githubusercontent.com/ExploitIdF/Referentiel_Tunnels/refs/heads/main/tunnelAxeSens.csv)
 
@@ -66,7 +67,6 @@ On pourra utiliser, pour lier les informations des deux applications, la table d
 [Table de correspondance CosWin -> Sucombe](https://raw.githubusercontent.com/ExploitIdF/ReferentielTunnels/refs/heads/main/tunnelsCosWinSucombe.csv)
 
 ['Code python utilisé pour établir la table'](https://github.com/ExploitIdF/ReferentielTunnels/blob/main/codeCorrCosWinSucombe)
-
 
 ## Regroupements de fermetures
 Pour massifier certaines actions de maintenance de nuit, sous fermeture, il est utile d'identifier les sections de tunnels 
