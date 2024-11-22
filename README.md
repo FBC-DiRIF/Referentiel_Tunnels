@@ -21,14 +21,13 @@ La liste de ces valeurs est la suivante :
 
 ## CosWin
 Dans l'application CosWin, certains équipements sont associés à un **tunnel**. 
-La table des équipements comporte un champ **tunnel** (26 valeurs différentes) :  
+La table des équipements comporte un champ **Tunnel** (31 valeurs différentes dont 26 sont des tunnels exploités par le DiRIF/STT) :  
 ``` 
 'AMBROISE_PARE', 'ANTONY', 'BELLE-RIVE', 'BICETRE', 'BOBIGNY', 'BOISSY', 'CHAMPIGNY', 'CHENNEVIERES', 'ECHANGEUR_NANTERRE',
 'FONTENAY',  'FRESNES', 'GUY-MOQUET', 'ITALIE', 'LANDY', 'LA_COURNEUVE','LA_DEFENSE', 'LUMEN_NORTON', 'MOULIN',
 'NANTERRE_CENTRE', 'NEUILLY', 'NOGENT', 'ORLY', 'SAINT-CLOUD', 'SEVINES', 'TAVERNY', 'TRINITY'
 ```
-
-Les autres valeurs du champ **Tunnel** sont :
+Les autres valeurs du champ **Tunnel** sont :   
 `'HORS_TUNNEL', 'LA_JONCHERE', 'COUV._BLANC-MESNIL', 'COUV._BAGNOLET','ORLEANS'`
 
 
